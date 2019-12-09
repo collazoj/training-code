@@ -1,0 +1,58 @@
+2019-11-01 12:16:54.945 -05:00 [INF] Play Method
+2019-11-01 12:16:55.015 -05:00 [DBG] Of Mice and Men00:00:00
+BitRate: 256
+2019-11-01 12:16:55.017 -05:00 [DBG] Good Song00:00:00
+BitRate: 24
+2019-11-01 12:16:55.017 -05:00 [DBG] GOod moo-v00:00:00
+FrameRate: 24
+2019-11-01 12:16:55.019 -05:00 [DBG] best photo00:00:00
+FrameRate: 0
+2019-11-01 12:16:55.022 -05:00 [WRN] end of main method
+2019-11-01 17:10:11.050 -05:00 [WRN] end of main method
+2019-11-01 17:11:30.238 -05:00 [WRN] end of main method
+2019-11-01 17:11:57.130 -05:00 [WRN] end of main method
+2019-11-01 17:13:40.116 -05:00 [WRN] end of main method
+2019-11-01 17:14:01.963 -05:00 [WRN] end of main method
+2019-11-01 17:14:58.086 -05:00 [WRN] end of main method
+2019-11-01 17:15:50.621 -05:00 [WRN] end of main method
+2019-11-01 17:16:00.921 -05:00 [WRN] end of main method
+2019-11-01 17:16:05.120 -05:00 [WRN] end of main method
+2019-11-01 17:16:16.455 -05:00 [WRN] end of main method
+2019-11-01 17:17:48.896 -05:00 [WRN] end of main method
+2019-11-01 17:17:53.802 -05:00 [WRN] end of main method
+2019-11-01 17:17:56.681 -05:00 [WRN] end of main method
+2019-11-01 17:24:02.627 -05:00 [WRN] end of main method
+2019-11-01 17:24:23.371 -05:00 [WRN] end of main method
+2019-11-01 17:24:45.123 -05:00 [WRN] end of main method
+2019-11-01 17:25:13.206 -05:00 [WRN] end of main method
+2019-11-01 17:25:21.370 -05:00 [WRN] end of main method
+2019-11-01 17:27:48.538 -05:00 [WRN] end of main method
+2019-11-01 17:27:53.962 -05:00 [WRN] end of main method
+2019-11-01 17:27:57.620 -05:00 [WRN] end of main method
+2019-11-01 17:28:16.895 -05:00 [WRN] end of main method
+2019-11-01 17:28:22.316 -05:00 [WRN] end of main method
+2019-11-01 17:28:40.494 -05:00 [WRN] end of main method
+2019-11-01 17:28:56.348 -05:00 [WRN] end of main method
+2019-11-01 17:29:21.815 -05:00 [WRN] end of main method
+2019-11-01 17:29:41.550 -05:00 [WRN] end of main method
+2019-11-01 17:31:10.893 -05:00 [WRN] end of main method
+2019-11-01 17:31:36.409 -05:00 [WRN] end of main method
+2019-11-01 17:35:05.443 -05:00 [WRN] end of main method
+2019-11-01 17:35:15.967 -05:00 [WRN] end of main method
+2019-11-01 17:35:19.153 -05:00 [WRN] end of main method
+2019-11-01 17:35:21.969 -05:00 [WRN] end of main method
+2019-11-01 17:37:29.620 -05:00 [WRN] end of main method
+2019-11-01 17:38:10.436 -05:00 [WRN] end of main method
+2019-11-01 17:38:14.215 -05:00 [WRN] end of main method
+2019-11-01 17:38:18.913 -05:00 [WRN] end of main method
+2019-11-01 17:38:22.845 -05:00 [WRN] end of main method
+2019-11-01 17:38:26.735 -05:00 [WRN] end of main method
+2019-11-01 17:38:31.067 -05:00 [WRN] end of main method
+2019-11-01 17:38:34.852 -05:00 [WRN] end of main method
+2019-11-01 17:43:41.471 -05:00 [WRN] end of main method
+2019-11-01 17:45:38.702 -05:00 [WRN] end of main method
+2019-11-01 17:45:55.636 -05:00 [WRN] end of main method
+2019-11-01 17:46:18.750 -05:00 [WRN] end of main method
+2019-11-01 17:47:41.704 -05:00 [WRN] end of main method
+2019-11-05 13:52:52.626 -06:00 [WRN] end of main method
+2019-11-05 14:24:52.450 -06:00 [WRN] end of main method

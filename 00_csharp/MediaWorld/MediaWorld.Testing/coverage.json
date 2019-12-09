@@ -1,0 +1,621 @@
+{
+  "MediaWorld.Domain.dll": {
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Singletons/AudioPlayerSingleton.cs": {
+      "MediaWorld.Domain.Singletons.AudioPlayerSingleton": {
+        "MediaWorld.Domain.Singletons.AudioPlayerSingleton MediaWorld.Domain.Singletons.AudioPlayerSingleton::get_Instance()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.AudioPlayerSingleton::Execute(System.String,MediaWorld.Domain.Abstracts.AAudio)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.AudioPlayerSingleton::PowerDown()": {
+          "Lines": {
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.AudioPlayerSingleton::PowerUp()": {
+          "Lines": {
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.AudioPlayerSingleton::VolumeDown()": {
+          "Lines": {
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.AudioPlayerSingleton::VolumeMute()": {
+          "Lines": {
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.AudioPlayerSingleton::VolumeUp()": {
+          "Lines": {
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.AudioPlayerSingleton::.ctor()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.AudioPlayerSingleton::.cctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Singletons/MediaPlayerSingleton.cs": {
+      "MediaWorld.Domain.Singletons.MediaPlayerSingleton": {
+        "MediaWorld.Domain.Singletons.MediaPlayerSingleton MediaWorld.Domain.Singletons.MediaPlayerSingleton::get_Instance()": {
+          "Lines": {
+            "13": 1,
+            "14": 1,
+            "15": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.MediaPlayerSingleton::Execute(MediaWorld.Domain.Delegates.ControlDelegate/ButtonDelegate,MediaWorld.Domain.Abstracts.AMedia)": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.MediaPlayerSingleton::ResultHandler(MediaWorld.Domain.Abstracts.AMedia)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.MediaPlayerSingleton::PowerDown()": {
+          "Lines": {
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.MediaPlayerSingleton::PowerUp()": {
+          "Lines": {
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.MediaPlayerSingleton::VolumeDown()": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.MediaPlayerSingleton::VolumeMute()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.MediaPlayerSingleton::VolumeUp()": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.MediaPlayerSingleton::.ctor()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.MediaPlayerSingleton::.cctor()": {
+          "Lines": {
+            "9": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Singletons/VideoPlayerSingleton.cs": {
+      "MediaWorld.Domain.Singletons.VideoPlayerSingleton": {
+        "MediaWorld.Domain.Singletons.VideoPlayerSingleton MediaWorld.Domain.Singletons.VideoPlayerSingleton::get_Instance()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.VideoPlayerSingleton::Execute(System.String,MediaWorld.Domain.Abstracts.AVideo)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.VideoPlayerSingleton::PowerDown()": {
+          "Lines": {
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.VideoPlayerSingleton::PowerUp()": {
+          "Lines": {
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.VideoPlayerSingleton::VolumeDown()": {
+          "Lines": {
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.VideoPlayerSingleton::VolumeMute()": {
+          "Lines": {
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Singletons.VideoPlayerSingleton::VolumeUp()": {
+          "Lines": {
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.VideoPlayerSingleton::.ctor()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.VideoPlayerSingleton::.cctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Models/Book.cs": {
+      "MediaWorld.Domain.Models.Book": {
+        "System.Void MediaWorld.Domain.Models.Book::Initialize(System.String,System.String,System.String,System.TimeSpan,System.Int32)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Book::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Book::.ctor(System.String,System.String,System.String,System.TimeSpan,System.Int32)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Models/Movie.cs": {
+      "MediaWorld.Domain.Models.Movie": {
+        "System.Void MediaWorld.Domain.Models.Movie::Initialize(System.String,System.TimeSpan,System.Int32)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Movie::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Movie::.ctor(System.String,System.TimeSpan,System.Int32)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Models/Photo.cs": {
+      "MediaWorld.Domain.Models.Photo": {
+        "System.Void MediaWorld.Domain.Models.Photo::Initialize(System.String,System.String)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Models.Photo::Forward()": {
+          "Lines": {
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Models.Photo::Rewind()": {
+          "Lines": {
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Photo::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Photo::.ctor(System.String,System.String)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Models/Song.cs": {
+      "MediaWorld.Domain.Models.Song": {
+        "System.Void MediaWorld.Domain.Models.Song::Initialize(System.String,System.String,System.TimeSpan,System.Int32)": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Song::.ctor()": {
+          "Lines": {
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Models.Song::.ctor(System.String,System.String,System.TimeSpan,System.Int32)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Factories/AudioFactory.cs": {
+      "MediaWorld.Domain.Factories.AudioFactory": {
+        "MediaWorld.Domain.Abstracts.AMedia MediaWorld.Domain.Factories.AudioFactory::Create()": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Factories/VideoFactory.cs": {
+      "MediaWorld.Domain.Factories.VideoFactory": {
+        "MediaWorld.Domain.Abstracts.AMedia MediaWorld.Domain.Factories.VideoFactory::Create()": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Abstracts/AAudio.cs": {
+      "MediaWorld.Domain.Abstracts.AAudio": {
+        "System.Int32 MediaWorld.Domain.Abstracts.AAudio::get_BitRate()": {
+          "Lines": {
+            "7": 1
+          },
+          "Branches": []
+        },
+        "System.String MediaWorld.Domain.Abstracts.AAudio::get_Author()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        },
+        "System.String MediaWorld.Domain.Abstracts.AAudio::get_Narrator()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AAudio::Pause()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AAudio::Play()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AAudio::Forward()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AAudio::Rewind()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AAudio::Stop()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String MediaWorld.Domain.Abstracts.AAudio::ToString()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Abstracts/AMedia.cs": {
+      "MediaWorld.Domain.Abstracts.AMedia": {
+        "System.TimeSpan MediaWorld.Domain.Abstracts.AMedia::get_Duration()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "System.String MediaWorld.Domain.Abstracts.AMedia::get_Title()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 MediaWorld.Domain.Abstracts.AMedia::get_FrameRate()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AMedia::Pause()": {
+          "Lines": {
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AMedia::Play()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 49,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 14,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AMedia::Stop()": {
+          "Lines": {
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.String MediaWorld.Domain.Abstracts.AMedia::ToString()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 53,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 8,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jimmycollazo/revature/00_csharp/MediaWorld/MediaWorld.Domain/Abstracts/AVideo.cs": {
+      "MediaWorld.Domain.Abstracts.AVideo": {
+        "System.Int32 MediaWorld.Domain.Abstracts.AVideo::get_FrameRate()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String MediaWorld.Domain.Abstracts.AVideo::get_Director()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AVideo::Forward()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AVideo::Rewind()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AVideo::Pause()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MediaWorld.Domain.Abstracts.AVideo::Stop()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String MediaWorld.Domain.Abstracts.AVideo::ToString()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

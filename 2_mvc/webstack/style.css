@@ -1,0 +1,41 @@
+
+* { /* this is about the only reason we use omni */
+  box-sizing: border-box;
+  /* display: inline-block; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.col-1 {
+  width:8.333p;
+}
+.col-3 {
+  float: left;
+  width: 25%;
+}
+.col-4 {
+  float: left;
+  width: 33.33%;
+}
+.col-8 {
+  width: 66.67%;
+}
+.col-12 {
+  float: left;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  background-color: green;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .box:after {
+  content: '';
+  display: table;
+  clear: both;
+} */
+
