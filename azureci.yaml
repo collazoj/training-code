@@ -1,0 +1,18 @@
+name: $(date:yyyymmdd)$(rev:.rr) #20191209.00
+
+triggers:      #every time there is push to master, trigger the build
+  - master
+
+stages:
+  - stage: compile
+    jobs: 
+      - job: aspnet
+        pool:
+          vmImage: ubuntu-1804
+        steps:
+          - script: 
+            dotnet build 3_devops/devops.sln
+
+  # - stage: test
+  # - stage: pack
+  # - stage: deploy
