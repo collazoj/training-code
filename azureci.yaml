@@ -1,6 +1,6 @@
 name: $(date:yyyymmdd)$(rev:.rr) #20191209.00
 
-triggers:      #every time there is push to master, trigger the build
+trigger:      #every time there is push to master, trigger the build
   - master
 
 stages:
