@@ -5,13 +5,12 @@ trigger:      #every time there is push to master, trigger the build
 
 stages:
   - stage: compile
-    jobs: 
-      - job: aspnet
+    jobs:
+      - job: aspnet_build
         pool:
           vmImage: ubuntu-18.04
         steps:
-          - script: 
-              dotnet build 3_devops/devops.sln
+          - script: dotnet build 3_devops/Devops.sln
   - stage: test
     jobs:
       - job: aspnet_test
@@ -26,7 +25,7 @@ stages:
           - task: PublishCodeCoverageResults@1
             inputs:
               codeCoverageTool: cobertura
-              summaryFileLocation: '**/TestResults/coverage.cobertura.xml'
+              summaryFileLocation: '**/coverage.cobertura.xml'
   - stage: analyze
     jobs:
       - job:
@@ -35,25 +34,25 @@ stages:
         steps:
           - script: dotnet tool install --global dotnet-sonarscanner
           - script: |
-              dotnet sonarscanner begin /k:devopsjimmykey /d:sonar-login=$(SONAR_TOKEN) /o:collazoj
+              dotnet sonarscanner begin /k:devops-training /d:sonar.login=$SONAR_TOKEN /o:1910-oct21-dotnet
               dotnet build 3_devops/Devops.sln
               dotnet test 3_devops/Devops.sln
-              dotnet sonarscanner end /d:sonar-login=$(SONAR_LOGIN)
+              dotnet sonarscanner end /d:sonar.login=$SONAR_TOKEN
             env:
               SONAR_TOKEN: $(SONAR_LOGIN)
   - stage: pack
     jobs:
       - job:
         pool:
-          vmImage:ubuntu-18.04
+          vmImage: ubuntu-18.04
         steps:
-          - script: docker image build -f 3_devops/dockerfile -t jimcollazo96/devops:$BUILD_NAME
-            env: 
+          - script: docker image build -f 3_devops/dockerfile -t fredbelotte/devops:$BUILD_NAME
+            env:
               BUILD_NAME: $(Build.DefinitionName)
-          - script: docker login --username $(DOCKER_USER) --password $DOCKER_TOKEN
-            env: 
+          - script: docker login --username $DOCKER_USER --password $DOCKER_TOKEN
+            env:
               DOCKER_TOKEN: $(docker.token)
               DOCKER_USER: $(docker.user)
-          - script: docker image push jimcollazo96/devops:$BUILD_NAME
+          - script: docker image push fredbelotte/devops:$BUILD_NAME
             env:
               BUILD_NAME: $(Build.DefinitionName)
