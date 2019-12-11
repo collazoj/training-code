@@ -14,19 +14,19 @@ stages:
               dotnet build 3_devops/devops.sln
   - stage: test
     jobs:
-      -job: aspnet_test
+      - job: aspnet_test
         pool:
           vmImage: ubuntu-18.04
         steps:
           - task: DotNetCoreCLI@2
             inputs:
               command: test
-              projects: 3_devops/devops.sln
+              projects: 3_devops/Devops.sln
               arguments: --collect:"XPlat Code Coverage"
           - task: PublishCodeCoverageResults@1
             inputs:
-              codeCoverageTool: Cobertura
-              summaryFileLocation: './3_devops/Devops.Test/TestResults/coverage.cobertura.xml'
+              codeCoverageTool: cobertura
+              summaryFileLocation: '**/TestResults/coverage.cobertura.xml'
   # - stage: analyze
   #   jobs:
   #     - job:
