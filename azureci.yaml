@@ -39,7 +39,7 @@ stages:
               /d:sonar.host.url=https://sonarcloud.io \
               /d:sonar.cs.opencover.reportsPaths=**/TestResults/*/coverage.opencover.xml \
               /d:sonar.cs.vstest.reportsPaths=**/*.trx \
-              /k:devops-training \
+              /k:devopsjimmykey \
               /o:collazoj
               dotnet build 3_devops/devops.sln
               dotnet test 3_devops/devops.sln --logger trx
@@ -52,13 +52,13 @@ stages:
         pool:
           vmImage: ubuntu-18.04
         steps:
-          - script: docker image build -f 3_devops/dockerfile -t fredbelotte/devops:$BUILD_NAME .
+          - script: docker image build -f 3_devops/dockerfile -t jimcollazo96/devops:$BUILD_NAME ./3_devops
             env:
               BUILD_NAME: $(Build.DefinitionName)
           - script: docker login --username $DOCKER_USER --password $DOCKER_TOKEN
             env:
               DOCKER_TOKEN: $(docker.token)
               DOCKER_USER: $(docker.user)
-          - script: docker image push fredbelotte/devops:$BUILD_NAME
+          - script: docker image push jimcollazo96/devops:$BUILD_NAME
             env:
               BUILD_NAME: $(Build.DefinitionName)
